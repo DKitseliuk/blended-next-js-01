@@ -1,4 +1,16 @@
+import { Metadata } from 'next';
 import css from './page.module.css';
+
+export const metadata: Metadata = {
+  title: 'Postly',
+  description:
+    'Postly is a simple and efficient platform for creating, editing, and browsing posts.',
+  openGraph: {
+    title: 'Postly',
+    description:
+      'Postly is a simple and efficient platform for creating, editing, and browsing posts.',
+  },
+};
 
 export default function Home() {
   return (
